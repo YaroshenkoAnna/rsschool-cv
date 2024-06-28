@@ -48,7 +48,8 @@ Prydniprovska State Academy of Civil Engineering and Architecture (Civil & Indus
 
 ### Projects
 
-[Weather]("https://jazzy-vacherin-a9614f.netlify.app/")
+- [Weather]("https://jazzy-vacherin-a9614f.netlify.app/")
+- [Tasks of Maxymiser Academy]("https://yaroshenkoanna.github.io/")
 
 ---
 
@@ -77,4 +78,3 @@ return findOdd(A);
 - Ukrainian - native
 - English - A2
 - German - B2
-
