@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" >
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-
-    <link rel="stylesheet" href="style.css" >
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/monokai.css" />
     <title>CV Anna Yaroshenko</title>
   </head>
   <body>
@@ -45,56 +46,16 @@
       </header>
       <main>
         <div class="content">
-          <div class="content-left content__container">
-            <div class="profil-photo">
+          <div class="photo-area">
+            <div class="profil-photo photo-area__profil-photo">
               <img
-                src="assets/images/profil-foto.jpeg"
+                src="assets/images/profil-photo.jpeg"
                 alt="profil photo"
                 class="profil-photo__image"
-              >
+              />
             </div>
-            <h2 id="contact" class="content__header-section">Contact</h2>
-            <ul>
-              <li>Address: Glashütten, 61479, Deutschland</li>
-              <li>Phone: +49 1516 734 60 15</li>
-              <li>E-mail: yaroshenkoannette@gmail.com</li>
-              <li>Discord: Anna(@YaroshenkoAnna)</li>
-            </ul>
-            <h2 id="education" class="content__header-section">Education</h2>
-            <ul>
-              <li>
-                09/2004 - 06/2009 Prydniprovska State Academy of Civil
-                Engineering and Architecture (Civil and Industrial Engineering)
-              </li>
-            </ul>
-            <h2 id="courses" class="content__header-section">Courses</h2>
-            <ul>
-              <li>
-                02/2023 - 03/2023 - Modern HTML and CSS course (Javascript.info)
-              </li>
-              <li>
-                02/2023 - 03/2023 - Responsive Web Development (Shecodes.io)
-              </li>
-              <li>06/2022 - 07/2022 - Web Development (Shecodes.io)</li>
-              <li>04/2022 - 05/2022 - Introduction to Coding (Shecodes.io)</li>
-              <li>
-                11/2021 - 12/2021 - Javascript/DOM/Interfaces courses
-                (Javascript.info)
-              </li>
-              <li>
-                10/2014 - 03/2015 - Fundamentals of Javascript development
-                (Training course of Maxymiser Academy program)
-              </li>
-            </ul>
-            <h2 id="languages" class="content__header-section">Languages</h2>
-            <ul>
-              <li>Russian - native</li>
-              <li>Ukrainian - native</li>
-              <li>English - A2</li>
-              <li>German - B2</li>
-            </ul>
           </div>
-          <div class="content-right content__container">
+          <div class="about-info">
             <h1 class="content__header">Anna Yaroshenko</h1>
             <h3>Frontend Developer</h3>
             <p>
@@ -103,8 +64,92 @@
               development in a progressive organization where I could constantly
               learn and effectively contribute towards the goals of company.
             </p>
+          </div>
+          <div class="common-info">
+            <h2 id="contact" class="content__header-section">Contact</h2>
+            <ul class="content__list-section">
+              <li>
+                Address:
+                <a
+                  href="https://www.google.com/maps/place/Glash%C3%BCtten/@50.2177763,8.2545049,12z/data=!3m1!4b1!4m6!3m5!1s0x47bdaff180ff98bf:0x5b543402d7ee613d!8m2!3d50.2002913!4d8.3904942!16s%2Fg%2F11q1sc9h78?hl=de&entry=ttu"
+                  target="_blank"
+                  >Glashütten, 61479, Deutschland</a
+                >
+              </li>
+              <li>Phone: +49 1516 734 60 15</li>
+              <li>
+                E-mail:
+                <a href="mailto:yaroshenkoannette@gmail.com"
+                  >yaroshenkoannette@gmail.com</a
+                >
+              </li>
+              <li>Discord: Anna(@YaroshenkoAnna)</li>
+            </ul>
+            <h2 id="education" class="content__header-section">Education</h2>
+            <ul class="content__list-section">
+              <li>
+                09/2004 - 06/2009 <br />
+                Prydniprovska State Academy of Civil Engineering and
+                Architecture (Civil and Industrial Engineering)
+              </li>
+            </ul>
+            <h2 id="courses" class="content__header-section">Courses</h2>
+            <ul class="content__list-section">
+              <li>
+                <a
+                  href="https://learn.javascript.ru/courses/htmlcss-20230227/yaroshenkoannette/en/certificate.jpg"
+                  target="_blank"
+                  >02/2023 - 03/2023 - Modern HTML and CSS course
+                  (Javascript.info)</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://s3.amazonaws.com/shecodesio-production/students/certificates/000/133/461/original/133461.png?1713547434"
+                  target="_blank"
+                >
+                  02/2023 - 03/2023 - Responsive Web Development
+                  (Shecodes.io)</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.shecodes.io/certificates/441b1a5cfb926cde734deaebdf6000a5"
+                  target="_blank"
+                  >06/2022 - 07/2022 - Web Development (Shecodes.io)</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.shecodes.io/certificates/8627df50ba37741c42231f2fa92b7ad6"
+                  target="_blank"
+                  >04/2022 - 05/2022 - Introduction to Coding (Shecodes.io)</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://learn.javascript.ru/courses/jsbasic-20211122/yaroshenkoannette/en/certificate.jpg"
+                  target="_blank"
+                  >11/2021 - 12/2021 - Javascript/DOM/Interfaces courses
+                  (Javascript.info)</a
+                >
+              </li>
+              <li>
+                10/2014 - 03/2015 - Fundamentals of Javascript development
+                (Training course of Maxymiser Academy program)
+              </li>
+            </ul>
+            <h2 id="languages" class="content__header-section">Languages</h2>
+            <ul class="content__list-section">
+              <li>Russian - native</li>
+              <li>Ukrainian - native</li>
+              <li>English - A2</li>
+              <li>German - B2</li>
+            </ul>
+          </div>
+          <div class="examples">
             <h2 id="skills" class="content__header-section">Skills</h2>
-            <ul>
+            <ul class="content__list-section">
               <li>HTML5, CSS3</li>
               <li>Javascript</li>
               <li>Git, GitHub</li>
@@ -113,11 +158,62 @@
             <h2 id="code-example" class="content__header-section">
               Code example
             </h2>
+            <p>
+              Find the odd int KATA from Codewars: Given an array of integers,
+              find the one that appears an odd number of times. There will
+              always be only one integer that appears an odd number of times.
+            </p>
+            <pre><code data-language="javascript">
+              funktion findOdd(A){
+                if (A.length == 1 || A.indexOf(A[0],1) === -1){
+                  return A[0];
+                } else {
+                  A.splice(A.indexOf(A[0],1), 1);
+                  A.shift();
+                  return findOdd(A);
+                }
+              } 
+            </code></pre>
             <h2 id="projects" class="content__header-section">Projects</h2>
+            <div class="card-project">
+              <h3 class="card-project__header">Weather App</h3>
+              <a
+                href="https://jazzy-vacherin-a9614f.netlify.app/"
+                class="card-project__link"
+              >
+                <img
+                  src="/assets/images/weather.png"
+                  alt="weather app preview"
+                  class="card-project__img"
+                />
+              </a>
+            </div>
           </div>
         </div>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <a
+          class="footer__github"
+          href="https://github.com/YaroshenkoAnna"
+          target="_blank"
+        >
+          My GitHub
+        </a>
+        <p class="footer__year">2024</p>
+        <a
+          class="footer__logo"
+          href="https://rs.school/courses/javascript-ru"
+          target="_blank"
+        >
+          <img
+            src="assets/images/rs_school_js.svg"
+            width="86"
+            height="32"
+            alt="RS School"
+          />
+        </a>
+      </footer>
     </div>
+    <script src="assets/src/javascript.js"></script>
   </body>
 </html>
