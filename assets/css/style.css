@@ -46,6 +46,13 @@ body {
 
 .navigation__link {
   color: black;
+  transition: 200ms ease-in-out;
+  cursor: pointer;
+}
+
+.navigation__link:hover {
+  color: rgb(238, 195, 108);
+  text-decoration: none;
 }
 
 main {
@@ -105,11 +112,18 @@ main {
 }
 
 .card-project__link {
+  transition: 200ms ease-in-out;
+  cursor: pointer;
 }
 
 .card-project__img {
   max-width: 480px;
   width: 100%;
+  border: 5px solid var(--dark);
+}
+
+.card-project__img:hover {
+  border-color: rgb(179, 179, 179);
 }
 
 .content__container {
@@ -144,6 +158,15 @@ main {
   color: inherit;
 }
 
+.content__link {
+  transition: 200ms ease-in-out;
+  cursor: pointer;
+}
+
+.content__link:hover {
+  color: rgb(238, 195, 108);
+}
+
 .profil-photo {
   width: 250px;
   height: 250px;
@@ -170,6 +193,12 @@ main {
   position: relative;
   padding-left: 40px;
   color: inherit;
+  transition: 200ms ease-in-out;
+  cursor: pointer;
+}
+
+.footer__github:hover {
+  color: rgb(238, 195, 108);
 }
 
 .footer__github::before {
@@ -183,4 +212,13 @@ main {
   background-size: 32px 32px;
   background-repeat: no-repeat;
   background-position: 0 0;
+}
+
+.footer__logo {
+  transition: 200ms ease-in-out;
+  cursor: pointer;
+}
+
+.footer__logo:hover {
+  filter: drop-shadow(3px 2px 2px rgba(238, 195, 108));
 }
