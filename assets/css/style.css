@@ -41,7 +41,7 @@ body {
   display: flex;
   flex-direction: row;
   list-style-type: none;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .navigation__link {
@@ -74,6 +74,20 @@ main {
   color: var(--dark);
 }
 
+.about-info__header {
+  margin: 16px 0;
+}
+
+.about-info__discription {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.examples__discription {
+  line-height: 26px;
+  margin: 15px auto;
+}
+
 .common-info {
   background-color: var(--dark);
   padding: 0 20px 20px;
@@ -84,6 +98,18 @@ main {
   background-color: var(--light);
   padding: 0 20px 20px;
   color: var(--dark);
+}
+
+.card-project__header {
+  margin: 15px 0;
+}
+
+.card-project__link {
+}
+
+.card-project__img {
+  max-width: 480px;
+  width: 100%;
 }
 
 .content__container {
