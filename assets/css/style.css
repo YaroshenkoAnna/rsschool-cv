@@ -8,6 +8,12 @@
   --white: #ffffff;
 }
 
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
 body {
   background-color: var(--grey);
   font-family: Roboto;
@@ -24,6 +30,7 @@ body {
   max-width: 1110px;
   margin: 0 auto;
 }
+
 
 .header {
   background-color: var(--grey);
@@ -185,8 +192,12 @@ main {
   border-radius: 50%;
 }
 
-.footer {
+.footer{
   background-color: var(--dark-grey);
+}
+
+.footer__content {
+  
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
